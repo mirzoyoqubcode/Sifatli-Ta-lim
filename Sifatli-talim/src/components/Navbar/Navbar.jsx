@@ -27,7 +27,9 @@ const Navbar = () => {
               <form className={styles.inputs}>
                 <input type="text" placeholder="Email" />
                 <input type="text" placeholder="Password" />
-                <button className={styles.btn}>Log in</button>
+                <Link to={"/info1"} className={styles.wrapper_btn}>
+                  <button className={styles.btn}>Log in</button>
+                </Link>
               </form>
             </div>
           </Modal>

@@ -1,0 +1,22 @@
+.information_contact {
+  background-color: #e9e9e9;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    width: 600px;
+    font-size: 30px;
+  }
+}
+.info_contact {
+  margin: 2rem 0;
+  h1 {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 7rem;
+    gap: 0.5rem;
+  }
+}

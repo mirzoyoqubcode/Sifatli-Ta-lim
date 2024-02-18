@@ -1,0 +1,24 @@
+.wrapper_miniNav {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  .links {
+    display: flex;
+    align-items: center;
+
+    .link {
+      text-decoration: none;
+    }
+    li {
+      margin: 0 2rem;
+      list-style-type: none;
+      color: black;
+    }
+  }
+  .profile {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

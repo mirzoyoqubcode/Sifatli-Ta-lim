@@ -16,3 +16,28 @@
     font-size: 30px;
   }
 }
+.firstclass_content {
+  width: 60%;
+  margin: auto;
+  p {
+    margin: 1rem 0;
+  }
+  .input_content {
+    margin: 1rem 0;
+  }
+  .dropzone {
+    background-color: #4c6ed7;
+
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 2rem;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4c6ed7;
+    color: white;
+  }
+}

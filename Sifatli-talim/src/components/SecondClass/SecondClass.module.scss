@@ -1,0 +1,43 @@
+.title_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.information_class {
+  display: flex;
+  align-items: center;
+}
+.statistic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 40px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.btn_upload {
+  padding: 15px 10px;
+  background-color: #4c6ed7;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+.info_second_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_second {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.videotag {
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 20px;
+}

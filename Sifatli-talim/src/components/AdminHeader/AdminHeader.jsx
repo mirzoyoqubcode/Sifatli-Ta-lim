@@ -24,7 +24,9 @@ const AdminHeader = () => {
             <Link to={"/firstclass"} className={styles.link}>
               <div className={styles.grid_item}>CIE-23-01</div>
             </Link>
-            <div className={styles.grid_item}>CIE-23-02</div>
+            <Link to={"/secondclass"} className={styles.link}>
+              <div className={styles.grid_item}>CIE-23-02</div>
+            </Link>
             <div className={styles.grid_item}>CIE-23-03</div>
             <div className={styles.grid_item}>CIE-23-04</div>
             <div className={styles.grid_item}>CIE-23-05</div>
